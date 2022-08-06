@@ -1,0 +1,30 @@
+.print-page {
+  background: #ffffff !important;
+  color: #000000 !important; }
+  .print-page .page-wrapper {
+    background: #ffffff !important; }
+  .print-page .docs-main-wrapper {
+    color: #000000 !important; }
+    .print-page .docs-main-wrapper .text-muted {
+      color: #000000 !important; }
+  .print-page body {
+    background: #ffffff !important; }
+    .print-page body .topbar,
+    .print-page body .page-titles,
+    .print-page body .doc-footer-actions-container,
+    .print-page body #nprogress,
+    .print-page body .left-sidebar {
+      display: none; }
+    .print-page body .page-wrapper {
+      margin-left: 0px;
+      padding-top: 0px; }
+    .print-page body .box-shadow {
+      box-shadow: none !important;
+      -webkit-box-shadow: none !important;
+      -moz-box-shadow: none !important; }
+    .print-page body .print-float-left {
+      float: left; }
+    .print-page body .print-float-right {
+      float: left; }
+
+/*# sourceMappingURL=print.css.map */

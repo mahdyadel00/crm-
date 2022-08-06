@@ -1,0 +1,18 @@
+/* ----------------------------------------------------------------
+ * [TINYMCE.SCSS]
+ * This file overides some styling from the default theme, as displayed
+ * inside the tinymce editor for [documents] e.g. proposals, contracts
+ * This file must be compiled on its own, into a CSS files
+ * see [DOCUMENTS] in Koala
+ * ---------------------------------------------------------------*/
+html {
+  background: #ffffff !important; }
+  html body {
+    background: #ffffff !important; }
+    html body.mce-content-body {
+      padding-top: 20px !important;
+      padding-left: 23px !important;
+      padding-right: 23px !important;
+      padding-bottom: 20px !important; }
+
+/*# sourceMappingURL=tinymce.css.map */

@@ -1,0 +1,13 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/focus\.scss}line{font-family:\000031}}
+.c3-target.c3-focused {
+  opacity: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/focus\.scss}line{font-family:\000034}}
+.c3-target.c3-focused path.c3-line, .c3-target.c3-focused path.c3-step {
+  stroke-width: 2px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/focus\.scss}line{font-family:\000037}}
+.c3-target.c3-defocused {
+  opacity: 0.3 !important; }
+
+/*# sourceMappingURL=focus.css.map */

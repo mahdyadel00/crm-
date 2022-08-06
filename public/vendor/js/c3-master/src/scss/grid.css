@@ -1,0 +1,13 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/grid\.scss}line{font-family:\000031}}
+.c3-grid line {
+  stroke: #aaa; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/grid\.scss}line{font-family:\000034}}
+.c3-grid text {
+  fill: #aaa; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/grid\.scss}line{font-family:\000037}}
+.c3-xgrid, .c3-ygrid {
+  stroke-dasharray: 3 3; }
+
+/*# sourceMappingURL=grid.css.map */

@@ -1,0 +1,130 @@
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Light colors*/
+/*Normal Color*/
+/*Extra Variable*/
+/*modals*/
+/* ---------------------------------------------
+* Main Theme Colors
+*-----------------------------------------------*/
+/* ---------------------------------------------
+* more
+*-----------------------------------------------*/
+/* ----------------------------------------------------------------
+ * Variables
+ * ---------------------------------------------------------------*/
+/* ----------------------------------------------------------------
+ * contracts & proposala
+ * ---------------------------------------------------------------*/
+.docs-main-wrapper {
+  font-size: 14px;
+  color: #67757c;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 4px rgba(197, 198, 201, 0.4);
+  -webkit-box-shadow: 0px 1px 4px rgba(197, 198, 201, 0.4);
+  -moz-box-shadow: 0px 1px 4px rgba(197, 198, 201, 0.4);
+  background-color: #ffffff;
+  /* ----------------------------------------------------------------
+   * line space
+   * ---------------------------------------------------------------*/
+  /* ----------------------------------------------------------------
+   * heror heading
+   * ---------------------------------------------------------------*/
+  /* ----------------------------------------------------------------
+   * prepared for and prepared by
+   * ---------------------------------------------------------------*/
+  /* ----------------------------------------------------------------
+   * Dates
+   * ---------------------------------------------------------------*/ }
+  .docs-main-wrapper .doc-body {
+    padding: 30px;
+    min-height: 350px; }
+  .docs-main-wrapper .doc-logo {
+    padding: 30px; }
+  .docs-main-wrapper .header-cover {
+    background-image: url("../images/default-background.jpg");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .docs-main-wrapper .line {
+    border-top: solid 1px #eeeff0;
+    height: 1px; }
+  .docs-main-wrapper .doc-hero-header {
+    height: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px; }
+    .docs-main-wrapper .doc-hero-header .main-heading {
+      font-size: 35px;
+      color: #556f83;
+      font-weight: 600;
+      padding-bottom: 0px; }
+    .docs-main-wrapper .doc-hero-header .main-title {
+      font-size: 20px;
+      color: #556f83;
+      font-weight: 500;
+      padding-bottom: 10px;
+      text-transform: none; }
+  .docs-main-wrapper .doc-to-by-container {
+    margin-top: 30px;
+    padding-left: 47px;
+    padding-right: 47px;
+    margin-bottom: 35px; }
+    .docs-main-wrapper .doc-to-by-container .doc-to-by .x-heading {
+      font-size: 15px;
+      min-width: 60px;
+      border-bottom: solid 1px #2e3e59;
+      display: inline-block;
+      padding-right: 20px;
+      font-weight: 600; }
+    .docs-main-wrapper .doc-to-by-container .doc-to-by .x-organisation-title {
+      font-size: 14px;
+      font-weight: 500;
+      color: #67757c;
+      padding-top: 5px;
+      padding-bottom: 1px; }
+    .docs-main-wrapper .doc-to-by-container .doc-to-by .x-organisation-address {
+      font-size: 14px; }
+  .docs-main-wrapper .doc-dates-container {
+    margin-top: 30px;
+    border-top: solid 1px #d9d9d9;
+    border-bottom: solid 1px #d9d9d9;
+    padding: 4px; }
+    .docs-main-wrapper .doc-dates-container .doc-dates-wrapper {
+      padding: 15px 47px; }
+
+/* ----------------------------------------------------------------
+ * Editing features
+ * ---------------------------------------------------------------*/
+.docs-main-wrapper.editing-mode .doc-heading {
+  padding: 4px;
+  text-align: center;
+  background-color: #c7dae2;
+  color: #2e3e59;
+  font-size: 16px;
+  font-weight: 500; }
+.docs-main-wrapper.editing-mode .js-doc-editing {
+  border: solid 2px transparent;
+  min-height: 40px;
+  position: relative; }
+  .docs-main-wrapper.editing-mode .js-doc-editing:hover {
+    border: dashed 2px #20aee3; }
+  .docs-main-wrapper.editing-mode .js-doc-editing .doc-edit-icon {
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    background-color: #20aee3;
+    display: none; }
+    .docs-main-wrapper.editing-mode .js-doc-editing .doc-edit-icon .x-edit-icon {
+      display: inline-block;
+      color: #ffffff;
+      padding: 2px 6px 0px 6px;
+      cursor: pointer; }
+      .docs-main-wrapper.editing-mode .js-doc-editing .doc-edit-icon .x-edit-icon:hover {
+        background-color: #1d96c3; }
+
+/*# sourceMappingURL=theme.css.map */

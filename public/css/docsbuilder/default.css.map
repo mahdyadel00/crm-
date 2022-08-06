@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;oEAEoE;AAGhE,gCAAc;EACV,gBAAgB,EAAE,iCAAiC",
+"sources": ["../../scss/docbuilder/default.scss"],
+"names": [],
+"file": "default.css"
+}

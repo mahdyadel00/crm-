@@ -1,0 +1,37 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/arc\.scss}line{font-family:\000031}}
+.c3-chart-arcs-title {
+  dominant-baseline: middle;
+  font-size: 1.3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/arc\.scss}line{font-family:\000036}}
+.c3-chart-arcs .c3-chart-arcs-background {
+  fill: #e0e0e0;
+  stroke: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/arc\.scss}line{font-family:\0000310}}
+.c3-chart-arcs .c3-chart-arcs-gauge-unit {
+  fill: #000;
+  font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/arc\.scss}line{font-family:\0000314}}
+.c3-chart-arcs .c3-chart-arcs-gauge-max {
+  fill: #777; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/arc\.scss}line{font-family:\0000317}}
+.c3-chart-arcs .c3-chart-arcs-gauge-min {
+  fill: #777; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/arc\.scss}line{font-family:\0000321}}
+.c3-chart-arc .c3-gauge-value {
+  fill: #000;
+  /*  font-size: 28px !important;*/ }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/arc\.scss}line{font-family:\0000326}}
+.c3-chart-arc.c3-target g path {
+  opacity: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/arc\.scss}line{font-family:\0000330}}
+.c3-chart-arc.c3-target.c3-focused g path {
+  opacity: 1; }
+
+/*# sourceMappingURL=arc.css.map */

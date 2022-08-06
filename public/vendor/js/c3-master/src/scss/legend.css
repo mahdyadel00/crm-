@@ -1,0 +1,16 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/legend\.scss}line{font-family:\000031}}
+.c3-legend-item {
+  font-size: 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/legend\.scss}line{font-family:\000034}}
+.c3-legend-item-hidden {
+  opacity: 0.15; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/WEB\%20PROJECTS\/DASHBOARD\/template\/thirdparty\/c3-master\/src\/scss\/legend\.scss}line{font-family:\000038}}
+.c3-legend-background {
+  opacity: 0.75;
+  fill: white;
+  stroke: lightgray;
+  stroke-width: 1; }
+
+/*# sourceMappingURL=legend.css.map */

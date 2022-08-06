@@ -1,0 +1,48 @@
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Light colors*/
+/*Normal Color*/
+/*Extra Variable*/
+/*modals*/
+/* ---------------------------------------------
+* Main Theme Colors
+*-----------------------------------------------*/
+/* ---------------------------------------------
+* more
+*-----------------------------------------------*/
+/* ----------------------------------------------------------------
+ * Variables
+ * ---------------------------------------------------------------*/
+/* ----------------------------------------------------------------
+ * contracts & proposala
+ * ---------------------------------------------------------------*/
+.docs-main-wrapper {
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 4px rgba(197, 198, 201, 0.4);
+  -webkit-box-shadow: 0px 1px 4px rgba(197, 198, 201, 0.4);
+  -moz-box-shadow: 0px 1px 4px rgba(197, 198, 201, 0.4);
+  background-color: #ffffff; }
+  .docs-main-wrapper .doc-hero-header {
+    height: 150px; }
+  .docs-main-wrapper .doc-body {
+    padding: 30px;
+    min-height: 350px; }
+
+/* ----------------------------------------------------------------
+ * Editing features
+ * ---------------------------------------------------------------*/
+.docs-main-wrapper.editing-mode .doc-heading {
+  padding: 4px;
+  text-align: center;
+  background-color: #ebf2f5;
+  color: #a6b5bd;
+  font-size: 16px;
+  font-weight: 500; }
+.docs-main-wrapper.editing-mode .js-doc-editing:hover {
+  border: dashed 2px #000000; }
+
+/*# sourceMappingURL=theme.css.map */

@@ -1,0 +1,189 @@
+/*
+Product: Grow CRM
+Contact: support@growcrm.io
+File: scss
+*/
+
+@import '../../../scss/variable';
+@import 'variable';
+@import '../../default/scss/theme';
+
+
+table {
+
+    th {
+        a {
+            color: #687aa5;
+        }
+    }
+
+}
+
+.list-actions-button {
+    color: $themecolor !important;
+}
+
+.list-actions-search {
+    color: #687aa5 !important;
+}
+
+.kanban .kanban-wrapper .boards .board .board-body .board-heading {
+    color: #5e7099;
+}
+
+.card-modal .card-left-panel .card-title {
+    color: #5e7099;
+}
+
+.card-modal .card-left-panel .x-heading {
+    color: #5e7099;
+}
+
+.kanban-card .x-title {
+    color: #5e7099;
+}
+
+.list-actions-button.active {
+    background-color: #d7def1 !important;
+    color: #687aa5 !important;
+}
+
+.modal .modal-dialog .modal-header .modal-title {
+    color: $themecolor !important;
+}
+
+.grid-card {
+    background-color: #ffffff;
+}
+
+.grid-card .grid-card-content .x-title {
+    color: $themecolor !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $themecolor !important;
+}
+
+.right-sidebar .rpanel-title {
+    color: $sidebar-text;
+    background: $sidebar;
+}
+
+.topbar {
+    background: #f4f7f9;
+}
+
+@media (min-width: 768px) {
+    .mini-sidebar .sidebar-nav #sidebarnav>li>ul {
+        left: 72px;
+        width: 223px;
+    }
+}
+
+@media (min-width: 768px) {
+    .mini-sidebar .sidebar-nav #sidebarnav>li>a {
+        width: 73px;
+    }
+}
+
+.settings .navbar-header {
+    background-color: $sidebar;
+    border-color: $sidebar;
+}
+
+.settings .left-sidebar .sidebar-nav {
+    background-color: $sidebar;
+}
+
+.sidebar-nav>ul>li.active>a {
+    color: #6e85bb;
+    border-color: #6e85bb;
+}
+
+.sidebar-nav>ul>li.active>a i {
+    color: #6e85bb;
+}
+
+.sidebar-nav ul li a.active,
+.sidebar-nav ul li a:hover {
+    color: #6e85bb;
+}
+
+.topbar .navbar-collapse {
+    border-bottom: 1px solid #d3ddf5;
+}
+
+.topbar .profile-pic {
+    border-left: 1px solid #d3ddf5;
+}
+
+a {
+    color: #6d8dd9;
+}
+
+.table td,
+.table th {
+    border-color: #d9dee9;
+}
+
+.client-selector,
+.modal-selector {
+    background-color: #e8eff3;
+}
+
+@media (min-width: 768px) {
+    .card-group .card:first-child,
+    .card-group .card:not(:first-child):not(:last-child) {
+        border-right: 1px solid #e6eff3;
+    }
+}
+
+#topnav_username {
+    color: #5f73a3;
+    font-weight: 500;
+}
+.comments .comment-text .x-name {
+    color: #5f73a3;
+}
+
+.comment-text .text-muted {
+    color: #5f73a3 !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #c7cddb;
+}
+
+.profile-tab li a.nav-link, .customtab li a.nav-link {
+    color: #5f73a3;
+}
+
+.kb-category .card-body .kb-category-icon span {
+    background-color: #e8edf1;
+    color: #8998ba;
+}
+
+.mini-sidebar {
+
+    .menu-tooltips {
+        opacity: 1 !important;
+
+        .tooltip-inner {
+            background-color:  #2e364a  !important;
+            opacity: 1;
+            color:#97b7c9 !important;
+        }
+
+        .arrow {
+            &:before {
+                content: "";
+                background: #2e364a;
+            }
+        }
+    }
+}

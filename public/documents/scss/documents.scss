@@ -1,0 +1,518 @@
+/* ----------------------------------------------------------------
+ * [DOCUMENTS.SCSS]
+ * This file is automatically included in the default theme.scss
+ * it does not need to be compiled on its own
+ * It styles the documents (both editing and preview)
+ * ---------------------------------------------------------------*/
+@import '../../scss/variable';
+
+
+/* ----------------------------------------------------------------
+ * Variables
+ * ---------------------------------------------------------------*/
+$color-doc-background: #ffffff;
+$color-doc-text: #67757c;
+$doc-heading-text: #2e3e59;
+$color-headings: #67757c;
+$color-headings-border: #2e3e59;
+$color-hero-heading: #556f83;
+$color-hero-title: #556f83;
+$color-line: #eeeff0;
+
+
+
+
+/* ----------------------------------------------------------------
+ * public page css
+ * ---------------------------------------------------------------*/
+
+.docs-heading-wrapper {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .logo {
+        img {
+            max-width: 200px;
+            max-height: 50px;
+        }
+    }
+
+    .actions {
+        text-align: right;
+        padding-top: 10px;
+    }
+
+}
+
+/* ----------------------------------------------------------------
+ * main document
+ * ---------------------------------------------------------------*/
+.docs-main-wrapper {
+
+
+    //font-family
+    //font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: $color-doc-text;
+
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 4px rgba(197, 198, 201, 0.4);
+    -webkit-box-shadow: 0px 1px 4px rgba(197, 198, 201, 0.4);
+    -moz-box-shadow: 0px 1px 4px rgba(197, 198, 201, 0.40);
+    background-color: $color-doc-background;
+
+    h3,
+    h4,
+    h5,
+    h5,
+    h6 {
+        color: #67757c;
+    }
+
+    .doc-body {
+        padding: 30px;
+        min-height: 350px;
+
+        h2 {
+            margin-bottom: 15px;
+            margin-top: 20px;
+            line-height: 29px;
+            font-weight: 200;
+            font-size: 22px;
+            color: #67757c;
+        }
+    }
+
+    //main logo
+    .doc-logo {
+        padding: 30px;
+    }
+
+    //cover background image (background-image is added dynamically)
+    .header-cover {
+        height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    /* ----------------------------------------------------------------
+     * line space
+     * ---------------------------------------------------------------*/
+    .line {
+        border-top: solid 1px #eeeff0;
+        height: 1px;
+    }
+
+
+    /**-------------------------------------------------------
+* label outline styles
+* -------------------------------------------------------*/
+
+    .btn-outline-default-light {
+        color: $default-light;
+        background-color: transparent;
+        border: solid 1px #cccccc;
+    }
+
+    .btn-default {
+        background-color: #efefef;
+        border: solid 1px #efefef;
+    }
+
+
+    /**-------------------------------------------------------
+* label outline styles
+* -------------------------------------------------------*/
+    .label {
+        font-weight: 600;
+        padding: 5px 10px;
+
+    }
+
+    .label-outline-secondary {
+        color: $secondary;
+        background-color: transparent;
+        border-color: $secondary;
+    }
+
+    .label-outline-primary {
+        color: $primary;
+        background-color: transparent;
+        border-color: $primary;
+    }
+
+    .label-outline-success {
+        color: $success;
+        background-color: $bg-watercolor-success;
+        border-color: $bg-watercolor-success;
+    }
+
+    .label-outline-info {
+        color: $info;
+        background-color: $bg-watercolor-info;
+        border-color: $bg-watercolor-info;
+    }
+
+    .label-outline-warning {
+        color: $warning;
+        background-color: $bg-watercolor-warning;
+        border-color: $bg-watercolor-warning;
+    }
+
+    .label-outline-danger {
+        color: $danger;
+        background-color: $bg-watercolor-danger;
+        border-color: $bg-watercolor-danger;
+    }
+
+    .label-outline-red {
+        color: $danger;
+        background-color: $bg-watercolor-danger;
+        border-color: $bg-watercolor-danger;
+    }
+
+    .label-outline-default {
+        color: $text-watercolor-default;
+        background-color: $bg-watercolor-default;
+        border: solid 1px;
+        border-color: $bg-watercolor-default;
+    }
+
+
+    .label-outline-purple {
+        color: $purple;
+        background-color: $bg-watercolor-purple;
+        border: solid 1px;
+        border-color: $bg-watercolor-purple;
+    }
+
+
+    /* ----------------------------------------------------------------
+     * heror heading
+     * ---------------------------------------------------------------*/
+    .doc-hero-header {
+        position: relative;
+        height: 200px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 50px;
+
+        .main-heading {
+            font-size: 35px;
+            color: $color-hero-heading;
+            font-weight: 600;
+            padding-bottom: 0px;
+        }
+
+        .main-title {
+            font-size: 20px;
+            color: $color-hero-title;
+            font-weight: 500;
+            padding-bottom: 10px;
+            text-transform: none;
+        }
+    }
+
+    .document-status-ribbon {
+        position: absolute;
+        left: 0px;
+        top: 30px;
+        padding: 5px 25px;
+        min-width: 80px;
+        text-align: left;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #ffffff;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 15px;
+    }
+
+
+    /* ----------------------------------------------------------------
+     * prepared for and prepared by
+     * ---------------------------------------------------------------*/
+    .doc-to-by-container {
+
+        margin-top: 30px;
+        padding-left: 47px;
+        padding-right: 47px;
+        margin-bottom: 35px;
+
+        .doc-to-by {
+
+
+
+            .x-heading {
+                font-size: 15px;
+                min-width: 60px;
+                border-bottom: solid 1px $color-headings-border;
+                display: inline-block;
+                padding-right: 20px;
+                font-weight: 600;
+            }
+
+            .x-organisation-title {
+                font-size: 14px;
+                font-weight: 500;
+                color: $color-headings;
+                padding-top: 5px;
+                padding-bottom: 1px;
+            }
+
+            .x-organisation-address {
+                font-size: 14px;
+            }
+        }
+
+    }
+
+
+    /* ----------------------------------------------------------------
+     * Dates
+     * ---------------------------------------------------------------*/
+    .doc-dates-container {
+
+        margin-top: 30px;
+        border-top: solid 1px $border-color;
+        border-bottom: solid 1px $border-color;
+        padding: 4px;
+
+        .doc-dates-wrapper {
+            padding: 15px 47px;
+        }
+
+    }
+
+}
+
+
+/* ----------------------------------------------------------------
+ * Editing features
+ * ---------------------------------------------------------------*/
+.docs-main-wrapper {
+
+    position: relative;
+
+    &.editing-mode {
+
+
+        //heading
+        .doc-heading {
+            padding: 4px;
+            text-align: center;
+            background-color: #c7dae2;
+            color: $doc-heading-text;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        //hover effect on editing
+        .js-doc-editing {
+            border: solid 2px transparent;
+            min-height: 40px;
+            position: relative;
+
+            &:hover {
+                border: dashed 2px $info;
+            }
+
+            .doc-edit-icon {
+                position: absolute;
+                right: -2px;
+                top: -2px;
+                background-color: $info;
+                display: none;
+
+                .x-edit-icon {
+                    display: inline-block;
+                    color: #ffffff;
+                    padding: 2px 6px 0px 6px;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: $info-dark;
+                    }
+                }
+            }
+        }
+
+        //tinymce editor
+        .mce-edit-area {
+            //border: 0px;
+        }
+    }
+}
+
+
+
+/* ----------------------------------------------------------------
+ * sidepanel estimate styping
+ * ---------------------------------------------------------------*/
+.documents-side-panel-billing-body {
+
+    .invoice-wrapper {
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+
+        background-color: transparent;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .invoice-total-table {
+        td {
+            padding-bottom: 6px;
+        }
+
+        #billing-sums-total-container {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        #billing-sums-total {
+            padding-left: 10px;
+        }
+    }
+
+    .billing-mode-only-item {
+        display: none !important;
+    }
+
+    .invoice-table {
+
+        th {
+            border-bottom: solid 1px $border-color;
+        }
+
+        .bill_col_action {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .bill_col_description {
+            width: 280px;
+        }
+
+    }
+
+    .invoice-wrapper {
+        padding-top: 0px !important;
+    }
+
+    .invoice-table-wrapper {
+        margin-top: 0px !important;
+    }
+
+}
+
+/* ----------------------------------------------------------------
+ * basic tables
+ * ---------------------------------------------------------------*/
+.docs-main-wrapper {
+    .doc-body {
+        table {
+
+            height: auto !important;
+
+            tr {
+                height: auto !important;
+            }
+
+            border: 1px solid #efeeee;
+
+            th,
+            td {
+                border: 1px solid #efeeee;
+                padding: 0px 14px;
+                height: 48px !important;
+
+                h2 {
+                    margin-top: 0px;
+                }
+            }
+
+
+            thead {
+
+                th,
+                td {
+                    border-bottom-width: (2px);
+                }
+            }
+
+        }
+    }
+}
+
+
+/* ----------------------------------------------------------------
+ * basic tables
+ * ---------------------------------------------------------------*/
+.doc-meet-the-team {
+    border: 0px !important;
+    margin-bottom: 12px;
+
+    td {
+
+        padding: 30px !important;
+        border: 0px !important;
+
+        &.spacer {
+            padding: 16px !important;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: inline-block;
+            border-radius: 100%;
+            max-width: 100px;
+        }
+
+    }
+
+}
+
+
+/* ----------------------------------------------------------------
+ * embedded inovice
+ * ---------------------------------------------------------------*/
+.docs-main-wrapper {
+    .doc-body {
+        .embedded-bill {
+            background-color: #fbfcfd;
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+            .invoice-table-wrapper {
+                margin-top: 0px !important;
+
+                th,
+                td {
+                    color: #67757c;
+                    border-color: #efeeee;
+                }
+
+                .bill_col_description {
+                    width: 45%;
+                }
+            }
+
+            .invoice-total-table {
+                min-width: 350px;
+            }
+
+            #billing-sums-total-container {
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+}
